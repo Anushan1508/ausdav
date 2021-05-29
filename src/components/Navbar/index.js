@@ -21,13 +21,22 @@ const Navbar = () => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
+                            <NavLinks to="projects">Projects</NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to="about">About</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="structure">Structure</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="donate">Donate</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
         </div>
-    )
+    ) 
 }
 
 export default Navbar
