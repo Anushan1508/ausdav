@@ -1,17 +1,7 @@
 import React from 'react'
-import {
-    InfoContainer,
-    InfoWrapper,
-    InfoRow,
-    Column1,
-    Column2,
-    TextWrapper,
-    TopLine,
-    Heading,
-    Subtitle,
-    Btnwrap,
-    ImgWrap
-} from './InfoElements';
+import { Button } from '../ButtonElements';
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements';
+
 
 const InfoSection = () => {
     return (
@@ -23,16 +13,16 @@ const InfoSection = () => {
                             <TextWrapper>
                                 <TopLine>TopLine</TopLine>
                                 <Heading>Heading</Heading>
-                                <Subtitile>SubTitle</Subtitile>
+                                <Subtitle>SubTitle</Subtitle>
                                 <BtnWrap>
-                                    <Button to="home">Button</Button>
+                                    <Button to="home" />
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
                         <Column2>
-                        <ImagWrap>
+                        <ImgWrap>
                         <Img />
-                        </ImagWrap>
+                        </ImgWrap>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>
